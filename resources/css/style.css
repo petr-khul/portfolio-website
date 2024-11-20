@@ -1,0 +1,99 @@
+html, body{
+    font-size: 16px;
+    font-family: "Proza Libre", sans-serif;
+    background-color:#F1D3B2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    margin: 1rem 5rem;
+    color: #46211A;
+    padding: 1rem;
+    max-width: 1000px;
+}
+
+.photo img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-weight: 900;
+    color: #A43820;
+    padding-bottom: 0;
+}
+
+h2 {
+    font-weight: 700;
+    color: #A43820;
+    font-style: italic;
+    font-size: 1.2rem;
+}
+
+h3 {
+    font-weight: 800;
+    color: #A43820;
+    font-size: 1.2rem;
+}
+
+header {
+    margin-top: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #ebc193;
+    border-radius: 20px;
+}
+
+.menu-bar {
+    margin-right: 2rem;
+}
+
+.menu {
+    list-style-type: none;
+
+}
+
+.menu li {
+    display:inline;
+    text-decoration: none;
+    margin: 0 0.8rem;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #2A3132;
+    font-size: 1.3rem;
+}
+
+.menu li a:hover {
+    text-decoration: none;
+    color: #A43820;
+    font-size: 1.3rem;
+    font-weight: 550;
+}
+
+.about-me {
+    margin-top: 2rem;
+    display: flex;
+}
+
+.about {
+    padding-right: 3rem;
+    text-align: justify;
+}
+
+.contact-links {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color:#A43820;
+}
+.contact img {
+    height: 1.8rem;
+    margin: 0 0.5rem;
+}
