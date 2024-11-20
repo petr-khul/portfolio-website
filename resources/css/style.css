@@ -1,7 +1,7 @@
 html, body{
     font-size: 16px;
     font-family: "Proza Libre", sans-serif;
-    background-color:#F1D3B2;
+    background-color:#f0f0f5;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -10,7 +10,7 @@ html, body{
 
 body {
     margin: 1rem 5rem;
-    color: #46211A;
+    color: #28334AFF;
     padding: 1rem;
     max-width: 1000px;
 }
@@ -22,20 +22,20 @@ body {
 
 h1 {
     font-weight: 900;
-    color: #A43820;
+    color: #333D79FF;
     padding-bottom: 0;
+    margin-bottom: -0.5rem;
 }
 
 h2 {
     font-weight: 700;
-    color: #A43820;
-    font-style: italic;
-    font-size: 1.2rem;
+    color: #333D79FF;
+    font-size: 1.1rem;
 }
 
 h3 {
     font-weight: 800;
-    color: #A43820;
+    color: #333D79FF;
     font-size: 1.2rem;
 }
 
@@ -46,7 +46,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-    background-color: #ebc193;
+    background-color: #d1d1e0;
     border-radius: 20px;
 }
 
@@ -67,15 +67,17 @@ header {
 
 .menu li a {
     text-decoration: none;
-    color: #2A3132;
+    color: #333D79FF;
     font-size: 1.3rem;
 }
 
-.menu li a:hover {
+.menu li a:hover, .menu li a:before {
     text-decoration: none;
     color: #A43820;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
+    transition: all .1s ease;
     font-weight: 550;
+    text-decoration: underline;
 }
 
 .about-me {
@@ -91,7 +93,7 @@ header {
 .contact-links {
     font-size: 1.5rem;
     font-weight: bolder;
-    color:#A43820;
+    color:#333D79FF;
 }
 .contact img {
     height: 1.8rem;
