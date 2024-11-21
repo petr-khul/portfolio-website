@@ -14,3 +14,12 @@ function calculateAge(birthDate){
 
 const birthDate = "1994-12-06";
 document.getElementById("age").textContent = calculateAge(birthDate);
+
+document.querySelectorAll(".projects-list li h4").forEach(item => {
+  item.addEventListener("click", () => {
+    const description = item.nextElementSibling; // Get the sibling .project div
+    if (description && description.classList.contains("project")) {
+      description.style.display = description.style.display === "block" ? "none" : "block";
+    }
+  });
+});
